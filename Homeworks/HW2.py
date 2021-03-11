@@ -22,9 +22,7 @@ for x in range(1,6):
 addressList = {}
 for x in range(1,6):
 	addressList["Person{0}".format(x)] = fake.address()
-
-
-print(addressList)
+#print(addressList)
 
 #---Creating id number list---
 idNoList = {}
