@@ -46,18 +46,18 @@ for i in nameList.keys():
 	CVs[i]= tuple(CVs[i] for CVs in CV)
 #print(CVs)
 
-for i, var in CVs.items():
-	print(str(i) + ":	ID Number: " + str(var[0]) + "\n		Full Name: " + str(var[1]) + "\n		Age: " + str(var[2]) + "\n		Job: " + str(var[3]) + "\n		Address: " + str(var[4]))
-
-
-
+#Final print
 for i, var in CVs.items():
 	print(str(i) + ":	ID Number: " + str(var[0]) + " Full Name: " + str(var[1]) + " Age: " + str(var[2]) + " Job: " + str(var[3]) + " Address: " + str(var[4]))
 
 
 
+#indented print: addressList new line strip is needed*
+"""
+for i, var in CVs.items():
+	print(str(i) + ":	ID Number: " + str(var[0]) + "\n		Full Name: " + str(var[1]) + "\n		Age: " + str(var[2]) + "\n		Job: " + str(var[3]) + "\n		Address: " + str(var[4]))
+"""
 
 
 
-CV1 = {}
 
