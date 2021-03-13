@@ -1,4 +1,6 @@
 #Homework Day 1
+#Making Lists and Knowing Data Types in the Lists
+
 #List of even numbers
 list1 = [i for i in range(20) if i % 2 == 0]
 #List of odd numbers
@@ -16,3 +18,5 @@ print(multipliedList)
 #Data types of values in multipliedList
 for i in multipliedList:
     print(type(i))
+
+#end

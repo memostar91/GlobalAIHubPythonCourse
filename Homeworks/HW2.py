@@ -40,9 +40,9 @@ for x in range(1,6):
 #---CV automation---
 CV = [idNoList, nameList, ageList, jobList, addressList]
 CVs = {}
-for i in nameList.keys():
-	CVs[i]= tuple(CVs[i] for CVs in CV)
-#print(CVs)
+for keys in idNoList.keys():
+	CVs[keys]= tuple(CVs[keys] for CVs in CV)
+#testprint(CVs)
 
 #Final print
 for i, var in CVs.items():
@@ -50,12 +50,12 @@ for i, var in CVs.items():
 
 
 
-#indented print: addressList new line strip is needed*
+#indented print: addressList 'new line' strip is needed for address*
 """
 for i, var in CVs.items():
 	print(str(i) + ":	ID Number: " + str(var[0]) + "\n		Full Name: " + str(var[1]) + "\n		Age: " + str(var[2]) + "\n		Job: " + str(var[3]) + "\n		Address: " + str(var[4]))
 """
-
+#end
 
 
 

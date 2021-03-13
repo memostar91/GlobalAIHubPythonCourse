@@ -6,19 +6,17 @@
 **Surname:** YILDIZ  
 **Email:** memostar91@gmail.com  
 
-**Note:** Your homeworks can be formats like ".ipynb" and ".py". **Not ".txt" files!!** Make sure that your codes works.  
+**Note:** Homeworks were written in Visual Studio Code, pushed by GitHub Desktop...
 
 ## Project Name
 Introduction to Python Programming Course
-Homeworks and Final Project
+Homeworks and Final Project Repo
 
 ## Requirements
-```
-Some python libraries
-Some python libraries
-Some python libraries
-```
----
+1- Faker package imported for HW2, to randomize results
+-- pip install Faker; github url: https://github.com/joke2k/faker
+2- NumPy
+3- Pandas
 
 ### Certification
 ![](img/TopLearnerCertificate.png)
