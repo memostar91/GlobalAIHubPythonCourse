@@ -10,12 +10,15 @@
 
 ## Project Name
 Introduction to Python Programming Course
+
 Homeworks and Final Project Repo
 
 ## Requirements
 1- Faker package imported for HW2, to randomize results
 -- pip install Faker; github url: https://github.com/joke2k/faker
+
 2- NumPy
+
 3- Pandas
 
 ### Certification
