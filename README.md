@@ -15,8 +15,8 @@ Homeworks and Final Project Repo
 ## Requirements
 1- Faker package imported for HW2, to randomize results
 -- pip install Faker; github url: https://github.com/joke2k/faker
-2- NumPy__
-3- Pandas__
+2- NumPy
+3- Pandas
 
 ### Certification
 ![](img/TopLearnerCertificate.png)
